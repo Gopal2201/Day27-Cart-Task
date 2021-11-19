@@ -1,38 +1,54 @@
-.App {
+* {
+  box-sizing: none;
+}
+
+.card {
+      padding: 50px;
+      width: 300px;
+      text-align: center;
+  
+}
+card {
+  background-color: white;
+  width: 20rem;
+  border-radius: 10px;
+  margin-left: 40px;
+  padding: 20px;
+  transition: all 0.2s linear;
+}
+.Cardss .card .header {
   text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  opacity: 0.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.month {
+  font-size: 1rem;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+}
+i {
+  margin-right: 0.7rem;
+}
+.muted {
+  opacity: 0.6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button {
+  border-style: none;
+  background-color: rgb(9, 80, 231);
   color: white;
+  width: 100%;
+  height: 3rem;
+  border-radius: 5rem;
+  opacity: 0.7;
+  letter-spacing: 0.1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, p {
+  font-family: Lato;
 }
